@@ -20,10 +20,10 @@ export class ProfileComponent implements OnInit {
 
   ngOnInit() {
 
-    var data = await this.restApi.post("http://localhost:3001/api/auth/login", {
-      email: this.email,
-      password: this.password
-    });
+//     var data = await this.restApi.post("http://localhost:3001/api/auth/login", {
+//       email: this.email,
+//       password: this.password
+//     });
 
   }
 
